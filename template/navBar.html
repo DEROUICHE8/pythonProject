@@ -1,0 +1,49 @@
+
+  <div class="navbar">
+    <nav >
+      <ul>
+        <li><a href="{% url 'table' %}">Table</a></li>
+        <li><a href="{% url 'myChart' %}">Chart</a></li>
+        <li><a href="{% url 'json' %}">Json</a></li>
+        <li style="float:right"><a class="active" href="">IOT</a></li>
+      </ul>
+    </nav>
+
+</div>
+   <br>
+   <br>
+   <br>
+  <br>
+  <style>
+    body{
+      margin: 0%;
+    }
+    ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #af5d5d;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+  </style>
+
