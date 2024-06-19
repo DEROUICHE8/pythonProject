@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-&d)%-+-i(-nqrm-1q*-1mhn@jwn#(4^bk_bikr5plz=de%&(@&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['ADNANE.pythonanywhere.com/api/temperaturehumidity']
 
 
 # Application definition
@@ -130,8 +130,8 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST_USER = 'rentrer ici votre adresse émail'
+EMAIL_HOST_USER = 'derouich.adnane123@gmail.com'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
-EMAIL_HOST_PASSWORD ='rentrer ici votre password émail'
+EMAIL_HOST_PASSWORD ='Adnane2001'
