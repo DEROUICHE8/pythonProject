@@ -106,7 +106,7 @@ def chart_data_mois(request):
     return JsonResponse(data)
 
 def sendtele(temp ,hum):
-    token = '6516773051:AAG4nnfxQVdPhAQYUJh8iDFv9s1yla5yd6E'
+    token = 'AAELKYZrsqQ98EFSJRwjN3YrKqmi7ZrOk5A'
     rece_id = 5373437298
     bot = telepot.Bot(token)
     bot.sendMessage(rece_id, 'la température depasse la normale' +temp + " le humiditer "+hum)
