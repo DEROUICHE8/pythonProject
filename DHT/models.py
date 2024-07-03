@@ -16,7 +16,7 @@ class Dht11(models.Model):
         if self.temp > 20:
             from DHT.views import sendtele
 
-            sendtele(self.temp, self. hum)
+            sendtele()
             send_mail(
                 'température dépasse la normale,' + str(self.temp),
                 'anomalie dans la machine le,' + str(self.dt),
